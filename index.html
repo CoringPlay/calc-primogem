@@ -25,7 +25,7 @@
 	 		</script>
 		</div>
 		<div class="dayli_iv_primogems">
-			<p>Счётчик ежедневных заданий</p>
+			<p>Счётчик ежедневных заданий (дни)</p>
 			<div>
 				<input id="dayli" type="number" step="4" onfocus="this.style.backgroundColor='MediumPurple';this.value='';">
 	 			<button class="shine-button" onclick="dayli()">Считать</button>
@@ -34,7 +34,7 @@
 			<script>
 		    	function dayli(){
 		         	var dayli = Number(document.getElementById("dayli").value);
-		          	var result_dayli = dayli / 4 * 60;
+		          	var result_dayli = dayli * 60;
 
 		          	document.getElementById("result_dayli").innerHTML = result_dayli;
 		          	}
