@@ -28,10 +28,10 @@
 		<div class="dayli_iv_primogems">
 			<p>Счётчик ежедневных заданий (дни)</p>
 			<div>
-				<input id="dayli" type="number" step="4" onfocus="this.style.backgroundColor='MediumPurple';this.value='';">
+				<input id="dayli" min="0" type="number" step="1" onfocus="this.style.backgroundColor='MediumPurple';this.value='';">
 	 			<button class="shine-button" onclick="dayli()">Считать</button>
 			</div>
-	 		<p>Вы получите примогемов</p><p id="result_dayli"> </p>
+	 		<p>За ежедневные заданий Вы получите примогемов</p><p id="result_dayli"> </p>
 			<script>
 		    	function dayli(){
 		         	var dayli = Number(document.getElementById("dayli").value);
@@ -42,5 +42,16 @@
 	 		</script>
 		</div>
 	</div>
+	<footer>
+		<div>
+			<h1>Привет</h1>
+			<ul>
+				<li><a href= «#»>Рейтинги</a></li>
+				<li><a href= «#»>Статьи</a></li>
+				<li><a href= «#»>Аналитика</a></li>
+				<li><a href= «#» >Электронные услуги</a></li>
+			</ul>
+		</div>
+	</footer>
 </body>
 </html>
