@@ -15,6 +15,7 @@
 				<div>
 					<input id="molitva" min="0" value="Сколько ван мужно молитв?" onfocus="this.style.backgroundColor='LightPink';this.value='';">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	 					<button class="shine-button" onclick="molitva()">Считать</button>
 				</div>
 	 				<p>Вам нужно найти примогемов</p><p id="result_molitva"></p>
@@ -27,6 +28,8 @@
 						}
 	 			</script>
 =======
+=======
+>>>>>>> Stashed changes
 		 			<button class="shine-button" onclick="molitva()">Считать</button>
 				</div>
 		 		<p>Вам нужно найти примогемов</p><p id="result_molitva"></p>
@@ -34,6 +37,7 @@
 			    	function molitva(){
 			         	var molitva = Number(document.getElementById("molitva").value);
 			          	var result_molitva = molitva * 160;
+<<<<<<< Updated upstream
 
 			          	document.getElementById("result_molitva").innerHTML = result_molitva;
 			          	}
@@ -59,6 +63,21 @@
 			</div>
 			<button class="atc-button" data-atc-styled="true" data-atc-start="2021/03/15 08:00 AM" data-atc-end="2021/03/15 10:00 AM" data-atc-title="Title of the event" data-atc-description="Description of the event" data-atc-location="Location of the event">Save the date</button>
 =======
+=======
+
+			          	document.getElementById("result_molitva").innerHTML = result_molitva;
+			          	}
+		 		</script>
+			</div>
+			<div class="dayli_iv_primogems">
+				<p>Счётчик ежедневных заданий (дни)</p>
+				<div>
+					<input id="dayli" min="0" type="number" step="1" onfocus="this.style.backgroundColor='MediumPurple';this.value='';">
+		 			<button class="shine-button" onclick="dayli()">Считать</button>
+				</div>
+		 		<p>За ежедневные заданий вы получите примогемов</p><p id="result_dayli"> </p>
+				<script>
+>>>>>>> Stashed changes
 			    	function dayli(){
 			         	var dayli = Number(document.getElementById("dayli").value);
 			          	var result_dayli = dayli * 60;
@@ -67,6 +86,9 @@
 			          	}
 		 		</script>
 			</div>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		</div>
 	</div>
