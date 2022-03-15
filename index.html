@@ -4,27 +4,41 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="img/molitva.png">
+		<link rel="shortcut icon" href="img/molitva.png">
 	<title>Калькулятор молитв ►✨◄</title>
 </head>
-<body>
+<body background="">
 	<div class="container">
 		<div class="wraper">
 			<div class="molitva_iv_primogems">
 				<p>Счётчик молитв</p>
 				<div>
 					<input id="molitva" min="0" value="Сколько ван мужно молитв?" onfocus="this.style.backgroundColor='LightPink';this.value='';">
+<<<<<<< Updated upstream
 	 					<button class="shine-button" onclick="molitva()">Считать</button>
 				</div>
 	 				<p>Вам нужно найти примогемов</p><p id="result_molitva"></p>
 				<script>
-		    		function molitva(){
-		         		var molitva = Number(document.getElementById("molitva").value);
-		         			var result_molitva = molitva * 160;
+					function molitva(){
+						var molitva = Number(document.getElementById("molitva").value);
+						var result_molitva = molitva * 160;
 
 		          		document.getElementById("result_molitva").innerHTML = result_molitva;
 						}
 	 			</script>
+=======
+		 			<button class="shine-button" onclick="molitva()">Считать</button>
+				</div>
+		 		<p>Вам нужно найти примогемов</p><p id="result_molitva"></p>
+				<script>
+			    	function molitva(){
+			         	var molitva = Number(document.getElementById("molitva").value);
+			          	var result_molitva = molitva * 160;
+
+			          	document.getElementById("result_molitva").innerHTML = result_molitva;
+			          	}
+		 		</script>
+>>>>>>> Stashed changes
 			</div>
 			<div class="dayli_iv_primogems">
 				<p>Счётчик ежедневных заданий (дни)</p>
@@ -34,6 +48,17 @@
 				</div>
 		 		<p>За ежедневные заданий вы получите примогемов</p><p id="result_dayli"> </p>
 				<script>
+<<<<<<< Updated upstream
+					function dayli(){
+						var dayli = Number(document.getElementById("dayli").value);
+						var result_dayli = dayli * 60;
+
+						document.getElementById("result_dayli").innerHTML = result_dayli;
+						}
+				</script>
+			</div>
+			<button class="atc-button" data-atc-styled="true" data-atc-start="2021/03/15 08:00 AM" data-atc-end="2021/03/15 10:00 AM" data-atc-title="Title of the event" data-atc-description="Description of the event" data-atc-location="Location of the event">Save the date</button>
+=======
 			    	function dayli(){
 			         	var dayli = Number(document.getElementById("dayli").value);
 			          	var result_dayli = dayli * 60;
@@ -42,6 +67,7 @@
 			          	}
 		 		</script>
 			</div>
+>>>>>>> Stashed changes
 		</div>
 	</div>
 </body>

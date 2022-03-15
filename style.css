@@ -13,6 +13,10 @@ input
 {
 	padding: 0 5%;
 }
+.wraper
+{
+  background: linear-gradient(rgb(88, 55, 88), rgb(119, 75, 94), rgb(149, 96, 99), rgb(180, 117, 104), rgb(212, 140, 109));
+}
 .molitva_iv_primogems
 {
 	height: 130px;
